@@ -1,0 +1,58 @@
+guest	A
+prize	{
+    "class" : "Distribution",
+    "dtype" : "str",
+    "name" : "DiscreteDistribution",
+    "parameters" : [
+        {
+            "A" : 0.3333333333333333,
+            "B" : 0.3333333333333333,
+            "C" : 0.3333333333333333
+        }
+    ],
+    "frozen" : false
+}
+monty	{
+    "class" : "Distribution",
+    "dtype" : "str",
+    "name" : "DiscreteDistribution",
+    "parameters" : [
+        {
+            "B" : 0.49999999999999983,
+            "A" : 0.0,
+            "C" : 0.49999999999999983
+        }
+    ],
+    "frozen" : false
+}
+guest	A
+prize	{
+    "class" : "Distribution",
+    "dtype" : "str",
+    "name" : "DiscreteDistribution",
+    "parameters" : [
+        {
+            "A" : 0.3333333333333334,
+            "B" : 0.0,
+            "C" : 0.6666666666666664
+        }
+    ],
+    "frozen" : false
+}
+monty	B
+guest	A
+prize	B
+monty	{
+    "class" : "Distribution",
+    "dtype" : "str",
+    "name" : "DiscreteDistribution",
+    "parameters" : [
+        {
+            "B" : 0.0,
+            "A" : 0.0,
+            "C" : 1.0
+        }
+    ],
+    "frozen" : false
+}
+>>> 
